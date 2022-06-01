@@ -1,0 +1,36 @@
+.box {
+    margin: auto;
+    margin-top: 10em;
+    padding-top: 5em;
+    width: 40em;
+    height: 20em;
+    background-color: rgb(81, 81, 77);
+    border-radius: 200px 200px 10px 10px;
+    border: solid 2px #fff;
+}
+
+/* Add for max-768px later */
+
+.time-display {
+    margin: auto;
+    width: 70%;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    user-select: none;
+    font-size: 3.5em;
+    border: solid rgb(254, 0, 0) 2px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 3em;
+}
+
+.random {
+    color: white;
+    margin: auto;
+    text-align: center;
+}
